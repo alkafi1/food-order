@@ -1,0 +1,184 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+/* css for col-4*/
+.col-4{
+    width:18%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #6bff72;
+    color: white;
+    cursor: pointer;
+    border: solid;
+    padding: 1%;
+
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #3fdd47;
+}
+.btn-secondary{
+    background-color: #6b75ff;
+    color: white;
+    cursor: pointer;
+    border: solid;
+    padding: 1%;
+}
+.btn-secondary:hover{
+    color: white;
+    background-color: #3e47c4;
+}
+.btn-danger{
+    background-color: #d15854;
+    color: white;
+    cursor: pointer;
+    border: solid;
+    padding: 1%;
+}
+.btn-danger:hover{
+    color: white;
+    background-color: #af3e3a;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+/* manage admin*/
+
+.table-full{
+    width: 100%;
+    text-align: left;
+    
+
+}
+ .tbl-30{
+    width: 50%;
+    
+}
+table tr th{
+    border-bottom: 1px solid black;
+    color: #485775;
+    text-align: left;
+}
+table tr td{
+    padding:1%;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.succes{
+    color: green;
+}
+.error{
+    color:indianred;
+}
+
+/* Css for log in page*/
+.login{
+    border: 1px solid grey;
+    
+    width: 20%;
+    color: indigo;
+    margin: 5% auto;
+    padding: 2%;
+}
